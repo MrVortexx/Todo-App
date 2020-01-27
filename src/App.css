@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ 
+
+.todoApp{
+  margin: 40px auto;
+   width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(219, 211, 211);
+  border-radius: 3px;
+}
+.App .todoApp header>strong{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.App .todoApp ul div {
+  list-style: none;
+  display: flex;
+   
+}
+.App .todoApp ul div a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #000000;
+}
